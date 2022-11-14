@@ -8,9 +8,9 @@ export default function Footer() {
             <div className='grupo-1'>
                 <div class="box">
                     <figure>
-                        <a href="#">
-                            <img class="img-logo-footer" src="./src/img/logo/logo.png" alt="LOGO DE AUTOSHOP"/>
-                        </a>
+                        <Link to=''>
+                            <img class="img-logo-footer" src="./src/assets/img-multimedia/logo/logo.png" alt="LOGO DE AUTOSHOP"/>
+                        </Link>
                     </figure>
                 </div>
                 <div class="box">
