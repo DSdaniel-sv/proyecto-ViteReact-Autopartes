@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../components/Header.css'
 
 export default function Header() {
@@ -7,17 +7,17 @@ export default function Header() {
     <div className='header__box'>
       <div className="header__superior">
         <picture className="box__img">
-          <img className="logo_img" src="../src/img/logo/logo.png" alt="logo.png" />
+          <Link to='/'><img className="logo_img" src="./src/assets/img-multimedia/logo/logo.png" alt="logo.png" /></Link>
         </picture>
         <form action="search" className="box__search">
           <input type="search" placeholder="¿Que desea buscar?" />
         </form>
         <div className="box__icons">
           <ul className="menu__icons">
-            <li><img src="../src/img/icons/cuenta.png" alt="" /><a href="">Sign in</a></li>
-            <li><img src="../src/img/icons/login-.png" alt="" /><a href="">Login</a></li>
-            <li><a href=""><img src="../src/img/icons/lista-de-deseos.png" alt="" /></a></li>
-            <li><a href=""><img src="../src/img/icons/carrito-de-compras.png" alt="" /></a></li>
+            <li><Link to=''><img src="./src/assets/img-multimedia/icons/cuenta.png" alt=""/>Sign in</Link></li>
+            <li><Link to=''><img src="./src/assets/img-multimedia/icons/login-.png" alt=""/>Login</Link></li>
+            <li><Link to=''><img src="./src/assets/img-multimedia/icons/lista-de-deseos.png" alt="" /></Link></li>
+            <li><Link to=''><img src="./src/assets/img-multimedia/icons/carrito-de-compras.png" alt="" /></Link></li>
           </ul>
         </div>
       </div>
@@ -26,9 +26,9 @@ export default function Header() {
       <div className="header__inferior-menu">
         <div className="container__menu">
           <ul className="menu">
-            <li><a href="../../../TRABAJO_FINAL_GRUPAL/proyecto-Front-End-Final/index.html">Inicio</a></li>
-            <li><a href="">Ofertas</a></li>
-            <li><a href="../contact/contacto.html">Contacto</a></li>
+            <li><Link to='/'>Inicio</Link></li>
+            <li><Link to=''>Ofertas</Link></li>
+            <li><Link to='Contacto'>Contacto</Link></li>
           </ul>
         </div>
       </div>
