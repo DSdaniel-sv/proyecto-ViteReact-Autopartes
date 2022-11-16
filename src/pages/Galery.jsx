@@ -1,11 +1,11 @@
-import React from 'react'
-
+import React from 'react';
+import '../pages/Galery.css'
 
 export default function Galery() {
 
     return (
         <>
-             {/* galery */}
+         
              <div className="container-2">
                 <div className="sect sect__motores">
                     <div className="box__title">
@@ -14,7 +14,7 @@ export default function Galery() {
                     <div className="box__card">
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/auto.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -36,7 +36,7 @@ export default function Galery() {
                         </div>
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/piezas.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -58,7 +58,7 @@ export default function Galery() {
                         </div>
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/auto.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -80,7 +80,7 @@ export default function Galery() {
                         </div>
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/piezas.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -110,7 +110,7 @@ export default function Galery() {
                     <div className="box__card">
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/piezas.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -132,7 +132,7 @@ export default function Galery() {
                         </div>
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/piezas.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -154,7 +154,7 @@ export default function Galery() {
                         </div>
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/auto.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -176,7 +176,7 @@ export default function Galery() {
                         </div>
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/auto.png"alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -206,7 +206,7 @@ export default function Galery() {
                     <div className="box__card">
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/auto.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -228,7 +228,7 @@ export default function Galery() {
                         </div>
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/auto.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -250,7 +250,7 @@ export default function Galery() {
                         </div>
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/auto.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
@@ -272,7 +272,7 @@ export default function Galery() {
                         </div>
                         <div className="card">
                             <div className="imgBx">
-                                <img src="44bb9450175c6bb59d5979a0d76d56fa-removebg-preview.png" alt="banner"/>
+                                <img src="./src/assets/img-multimedia/galery-img/auto.png" alt="banner"/>
                             </div>
                             <div className="contentBx">
                                 <h2>2018 Acura RDX </h2>
