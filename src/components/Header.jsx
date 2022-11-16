@@ -58,7 +58,7 @@ export default function Header() {
           <div>
             <figure>
               <Link to='/'>
-                <img src="./src/assets/img-multimedia/header/accesorios.jpg" alt="" />
+                <img src="./src/assets/img-multimedia/header/accesorios.png" alt="" />
                 <span>accesorios</span>
               </Link>
             </figure>
@@ -66,7 +66,7 @@ export default function Header() {
           <div>
             <figure>
               <Link to='/'>
-                <img src="./src/assets/img-multimedia/header/lubricantes.jpg" alt="" />
+                <img src="./src/assets/img-multimedia/header/lubricantes.png" alt="" />
                 <span>Lubricantes</span>
               </Link>
             </figure>
@@ -74,7 +74,7 @@ export default function Header() {
           <div>
             <figure>
               <Link to='/'>
-                <img src="./src/assets/img-multimedia/header/vehiculos.jpg" alt="" />
+                <img src="./src/assets/img-multimedia/header/vehiculos.png" alt="" />
                 <span>Vehiculos</span>
               </Link>
             </figure>
