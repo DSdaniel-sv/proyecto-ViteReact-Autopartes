@@ -12,9 +12,9 @@ export default function Router() {
         <Header/>
         <Routes>
             <Route path="/" element={<Inicio/>}/>
-            <Route path="/Galery" element={<Galery/>}/>
             <Route path="Contacto" element={<Contacto/>}/>
         </Routes>
+        <Galery/>
         <Footer/>
     </BrowserRouter>
   )
