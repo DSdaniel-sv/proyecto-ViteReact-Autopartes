@@ -29,6 +29,7 @@
     font-weight: 700;
     flex-wrap: wrap;
 }
+
 /* container-1 */
 .container-1{
 }
@@ -39,4 +40,16 @@
 }
 .video_1{
     width: 100%;
+}
+
+/* galery */
+.box__card{
+    border: solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sect {
+    margin: 3rem 0;
 }
