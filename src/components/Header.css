@@ -1,0 +1,42 @@
+.container-ofertas{
+    padding-top: 1rem;
+    background-color: #fff;
+}
+.container-title{
+    text-align: center;
+    padding: 3rem 0;
+}
+.ofertas-figure{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ofertas-figure div figure img{
+    width: 13rem;
+    height: 12rem;
+}
+.ofertas-figure figure{
+    text-align: center;
+    flex-wrap: wrap;
+}
+.ofertas-figure span{
+    display: block;
+}
+.ofertas-figure a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+/* container-1 */
+.container-1{
+}
+.sect_video{
+    margin: auto;
+    width: 100%;
+    background-color: #fff;
+}
+.video_1{
+    width: 100%;
+}
