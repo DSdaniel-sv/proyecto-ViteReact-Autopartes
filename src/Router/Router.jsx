@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Inicio from '../pages/Inicio';
 import Contacto from '../pages/Contacto';
 import Footer from '../components/Footer'
+import Ofertas from '../pages/Ofertas';
 
 export default function Router() {
   return (
@@ -12,6 +13,7 @@ export default function Router() {
         <Routes>
             <Route path="/" element={<Inicio/>}/>
             <Route path="Contacto" element={<Contacto/>}/>
+            <Route path='ofertas' element={<Ofertas/>}/>
         </Routes>
         <Footer/>
     </BrowserRouter>
