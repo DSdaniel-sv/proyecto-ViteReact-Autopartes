@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 #body{
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/742/820/884/abstract-black-green-shapes-wallpaper-preview.jpg);
 }
 /* Contenedor Wrapper */
 .wrapper{
   margin-left: 5%;
   margin-right: 5%;
 }
+

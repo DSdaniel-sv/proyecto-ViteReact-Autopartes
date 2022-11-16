@@ -4,33 +4,33 @@ import '../components/Footer.css'
 
 export default function Footer() {
     return (
-        <div className='pie-pagina"'>
+        <div className='pie-pagina'>
             <div className='grupo-1'>
-                <div class="box">
+                <div className="box">
                     <figure>
                         <Link to=''>
-                            <img class="img-logo-footer" src="./src/assets/img-multimedia/logo/logo.png" alt="LOGO DE AUTOSHOP"/>
+                            <img className="img-logo-footer" src="./src/assets/img-multimedia/logo/logo.png" alt="LOGO DE AUTOSHOP"/>
                         </Link>
                     </figure>
                 </div>
-                <div class="box">
+                <div className="box">
                     <h2>SOBRE NOSOTROS</h2>
-                    <p>+51 940 890 890</p>
+                    <p><i className="fa-solid fa-phone"></i>     +51 940 890 890</p>
                     <br/>
                     <br/>
-                    <p>Av. Buenos Aires N°394</p>
+                    <p><i className="fa-solid fa-house"></i>     Av. Buenos Aires N°394</p>
                 </div>
                 <div class="box">
                     <h2>SIGUENOS</h2>
-                    <div class="red-social">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-youtube"></a>
+                    <div className="red-social">
+                        <Link to="#" className="fa fa-facebook"></Link>
+                        <Link to="#" className="fa fa-instagram"></Link>
+                        <Link to="#" className="fa fa-twitter"></Link>
+                        <Link to="#" className="fa fa-youtube"></Link>
                     </div>
                 </div>
             </div>
-            <div class="grupo-2">
+            <div className="grupo-2">
                 <small>&copy; 2022 <b>AUTOSHOP</b> - Todos los Derechos Reservados.</small>
             </div>
         </div>

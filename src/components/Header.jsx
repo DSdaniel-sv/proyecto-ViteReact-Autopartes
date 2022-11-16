@@ -14,10 +14,10 @@ export default function Header() {
         </form>
         <div className="box__icons">
           <ul className="menu__icons">
-            <li><Link to=''><img src="./src/assets/img-multimedia/icons/cuenta.png" alt=""/>Sign in</Link></li>
-            <li><Link to=''><img src="./src/assets/img-multimedia/icons/login-.png" alt=""/>Login</Link></li>
-            <li><Link to=''><img src="./src/assets/img-multimedia/icons/lista-de-deseos.png" alt="" /></Link></li>
-            <li><Link to=''><img src="./src/assets/img-multimedia/icons/carrito-de-compras.png" alt="" /></Link></li>
+            <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/cuenta.png" alt=""/>Sign in</Link></li>
+            <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/login-.png" alt=""/>Login</Link></li>
+            <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/lista-de-deseos.png" alt="" /></Link></li>
+            <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/carrito-de-compras.png" alt="" /></Link></li>
           </ul>
         </div>
       </div>
@@ -26,9 +26,9 @@ export default function Header() {
       <div className="header__inferior-menu">
         <div className="container__menu">
           <ul className="menu">
-            <li><Link to='/'>Inicio</Link></li>
-            <li><Link to='ofertas'>Ofertas</Link></li>
-            <li><Link to='Contacto'>Contacto</Link></li>
+            <li><Link to='/' className='navTitle'>Inicio</Link></li>
+            <li><Link to='ofertas' className='navTitle'>Ofertas</Link></li>
+            <li><Link to='Contacto' className='navTitle'>Contacto</Link></li>
           </ul>
         </div>
       </div>
