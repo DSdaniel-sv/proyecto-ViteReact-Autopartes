@@ -1,5 +1,10 @@
 /* Ofertas */
 
+*{
+    margin: 0;
+    padding: 0;
+
+}
 
 .ofertas-title{
     text-align: center;
@@ -7,10 +12,6 @@
     font-weight: bold;
 }
 
-.container{
-    padding: 0;
-    margin: 0;
-}
 .envios-img{
     text-align: center;
     padding-top: 1rem;
