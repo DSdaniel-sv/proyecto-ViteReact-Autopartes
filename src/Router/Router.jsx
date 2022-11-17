@@ -6,6 +6,7 @@ import Contacto from '../pages/Contacto';
 import Footer from '../components/Footer'
 import Ofertas from '../pages/Ofertas';
 import Galery from '../pages/Galery';
+import Login from '../pages/Login';
 
 export default function Router() {
   return (
@@ -15,6 +16,7 @@ export default function Router() {
             <Route path="/" element={<Inicio/>}/>
             <Route path="Contacto" element={<Contacto/>}/>
             <Route path='ofertas' element={<Ofertas/>}/>
+            <Route path='login' element={<Login/>}/>
         </Routes>
         <Galery/>
         <Footer/>
