@@ -1,6 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import '../components/Header.css'
+
 
 export default function Header() {
   return (
@@ -9,26 +10,28 @@ export default function Header() {
         <picture className="box__img">
           <Link to='/'><img className="logo_img" src="./src/assets/img-multimedia/logo/logo.png" alt="logo.png" /></Link>
         </picture>
+
         <form action="search" className="box__search">
           <input type="search" placeholder="¿Que desea buscar?" />
         </form>
         <div className="box__icons">
           <ul className="menu__icons">
-            <li><Link to=''><img src="./src/assets/img-multimedia/icons/cuenta.png" alt=""/>Sign in</Link></li>
-            <li><Link to=''><img src="./src/assets/img-multimedia/icons/login-.png" alt=""/>Login</Link></li>
-            <li><Link to=''><img src="./src/assets/img-multimedia/icons/lista-de-deseos.png" alt="" /></Link></li>
-            <li><Link to=''><img src="./src/assets/img-multimedia/icons/carrito-de-compras.png" alt="" /></Link></li>
+            <li><Link to='register' className='imgIcons'><img src="./src/assets/img-multimedia/icons/cuenta.png" alt=""/>Sign in</Link></li>
+            <li><Link to='login' className='imgIcons'><img src="./src/assets/img-multimedia/icons/login-.png" alt=""/>Login</Link></li>
+            <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/lista-de-deseos.png" alt="" /></Link></li>
+            <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/carrito-de-compras.png" alt="" /></Link></li>
           </ul>
         </div>
+
       </div>
 
       {/* header inferior */}
       <div className="header__inferior-menu">
         <div className="container__menu">
           <ul className="menu">
-            <li><Link to='/'>Inicio</Link></li>
-            <li><Link to='ofertas'>Ofertas</Link></li>
-            <li><Link to='Contacto'>Contacto</Link></li>
+            <li><Link to='/' className='navTitle'>Inicio</Link></li>
+            <li><Link to='ofertas' className='navTitle'>Ofertas</Link></li>
+            <li><Link to='Contacto' className='navTitle'>Contacto</Link></li>
           </ul>
         </div>
       </div>
@@ -58,7 +61,7 @@ export default function Header() {
           <div>
             <figure>
               <Link to='/'>
-                <img src="./src/assets/img-multimedia/header/accesorios.jpg" alt="" />
+                <img src="./src/assets/img-multimedia/header/accesorios.png" alt="" />
                 <span>accesorios</span>
               </Link>
             </figure>
@@ -66,7 +69,7 @@ export default function Header() {
           <div>
             <figure>
               <Link to='/'>
-                <img src="./src/assets/img-multimedia/header/lubricantes.jpg" alt="" />
+                <img src="./src/assets/img-multimedia/header/lubricantes.png" alt="" />
                 <span>Lubricantes</span>
               </Link>
             </figure>
@@ -74,7 +77,7 @@ export default function Header() {
           <div>
             <figure>
               <Link to='/'>
-                <img src="./src/assets/img-multimedia/header/vehiculos.jpg" alt="" />
+                <img src="./src/assets/img-multimedia/header/vehiculos.png" alt="" />
                 <span>Vehiculos</span>
               </Link>
             </figure>

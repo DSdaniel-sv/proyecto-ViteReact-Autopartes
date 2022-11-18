@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 #body{
+  /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/756/360/small_2x/abstract-3d-black-technology-background-overlap-layers-on-dark-space-with-green-light-effect-decoration-modern-graphic-design-template-elements-for-poster-flyer-brochure-or-banner-vector.jpg); */
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/418/257/81/line-abstraction-green-green-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* Contenedor Wrapper */
 .wrapper{
   margin-left: 5%;
   margin-right: 5%;
 }
+

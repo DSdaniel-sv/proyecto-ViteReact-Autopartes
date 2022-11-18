@@ -1,16 +1,18 @@
 /* Ofertas */
 
+*{
+    margin: 0;
+    padding: 0;
+
+}
 
 .ofertas-title{
     text-align: center;
     padding: 3rem 0;
     font-weight: bold;
+    color: #fff;
 }
 
-.container{
-    padding: 0;
-    margin: 0;
-}
 .envios-img{
     text-align: center;
     padding-top: 1rem;
