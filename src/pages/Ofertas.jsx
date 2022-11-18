@@ -13,7 +13,7 @@ export default function Ofertas() {
         <div className='ofertas-title'>
             <h2>OFERTAS EXCLUSIVAS</h2>
         </div>
-    <div className='container'>
+    <div className='container' id='container-ofertas'>
         {/* Ofertas */}
         <div className='row row-cols-1 row-cols-md-2 g-4'>
             {/* Oferta-1 */}
