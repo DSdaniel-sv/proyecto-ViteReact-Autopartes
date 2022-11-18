@@ -9,6 +9,7 @@ export default function Header() {
         <picture className="box__img">
           <Link to='/'><img className="logo_img" src="./src/assets/img-multimedia/logo/logo.png" alt="logo.png" /></Link>
         </picture>
+
         <form action="search" className="box__search">
           <input type="search" placeholder="¿Que desea buscar?" />
         </form>
@@ -20,6 +21,7 @@ export default function Header() {
             <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/carrito-de-compras.png" alt="" /></Link></li>
           </ul>
         </div>
+
       </div>
 
       {/* header inferior */}
