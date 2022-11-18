@@ -21,7 +21,7 @@ export default function Login() {
               <input type='password' className='form-control' id='password' placeholder='Ingrese su contraseña' />
             </label>
           </div>
-          <Link className='login-link'>Olvidaste tu Contraseña</Link>
+          <Link to='/recuperar' className='login-link'>Olvidaste tu Contraseña</Link>
           <div className='form-group'>
             <Link to='/'>
               <button type='submit' className='btn-primary'>Login</button>

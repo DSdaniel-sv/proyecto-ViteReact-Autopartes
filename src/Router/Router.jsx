@@ -8,6 +8,7 @@ import Ofertas from '../pages/Ofertas';
 import Galery from '../pages/Galery';
 import Login from '../pages/Login';
 import SingIn from '../pages/SingIn';
+import Recuperar from '../pages/Recuperar';
 
 
 export default function Router() {
@@ -20,6 +21,7 @@ export default function Router() {
             <Route path='ofertas' element={<Ofertas/>}/>
             <Route path='/login' element={<Login/>}/>
             <Route path='/register' element={<SingIn/>}/>
+            <Route path='/recuperar' element={<Recuperar/>}/>
         </Routes>
         <Galery/>
         <Footer/>
