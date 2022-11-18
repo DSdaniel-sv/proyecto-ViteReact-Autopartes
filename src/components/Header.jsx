@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import '../components/Header.css'
 
 
@@ -10,6 +10,7 @@ export default function Header() {
         <picture className="box__img">
           <Link to='/'><img className="logo_img" src="./src/assets/img-multimedia/logo/logo.png" alt="logo.png" /></Link>
         </picture>
+
         <form action="search" className="box__search">
           <input type="search" placeholder="¿Que desea buscar?" />
         </form>
@@ -21,6 +22,7 @@ export default function Header() {
             <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/carrito-de-compras.png" alt="" /></Link></li>
           </ul>
         </div>
+
       </div>
 
       {/* header inferior */}
@@ -59,7 +61,7 @@ export default function Header() {
           <div>
             <figure>
               <Link to='/'>
-                <img src="./src/assets/img-multimedia/header/accesorios.jpg" alt="" />
+                <img src="./src/assets/img-multimedia/header/accesorios.png" alt="" />
                 <span>accesorios</span>
               </Link>
             </figure>
@@ -67,7 +69,7 @@ export default function Header() {
           <div>
             <figure>
               <Link to='/'>
-                <img src="./src/assets/img-multimedia/header/lubricantes.jpg" alt="" />
+                <img src="./src/assets/img-multimedia/header/lubricantes.png" alt="" />
                 <span>Lubricantes</span>
               </Link>
             </figure>
@@ -75,7 +77,7 @@ export default function Header() {
           <div>
             <figure>
               <Link to='/'>
-                <img src="./src/assets/img-multimedia/header/vehiculos.jpg" alt="" />
+                <img src="./src/assets/img-multimedia/header/vehiculos.png" alt="" />
                 <span>Vehiculos</span>
               </Link>
             </figure>

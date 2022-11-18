@@ -22,7 +22,12 @@
     padding: 5px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
+
+
+
+
 .box__img{
 }
 .box__img img{
@@ -153,16 +158,3 @@
 .video_1{
     width: 100%;
 }
-
-/* galery */
-.box__card{
-    border: solid red;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.sect {
-    margin: 3rem 0;
-}
-
