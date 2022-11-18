@@ -9,6 +9,7 @@ import Galery from '../pages/Galery';
 import Login from '../pages/Login';
 import SingIn from '../pages/SingIn';
 import Recuperar from '../pages/Recuperar';
+import DescriptionGalery from '../pages/DescriptionGalery';
 
 
 export default function Router() {
@@ -22,8 +23,9 @@ export default function Router() {
             <Route path='/login' element={<Login/>}/>
             <Route path='/register' element={<SingIn/>}/>
             <Route path='/recuperar' element={<Recuperar/>}/>
+            <Route path='/descripcion' element={<DescriptionGalery/>}/>
         </Routes>
-        <Galery/>
+   
         <Footer/>
     </BrowserRouter>
   )

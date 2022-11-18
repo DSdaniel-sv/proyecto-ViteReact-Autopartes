@@ -1,0 +1,24 @@
+#container_description{
+
+
+    justify-content: center;
+
+   
+}
+
+#card {
+    display: flex;    
+    max-width: 100%;
+    text-align-last: center;
+    margin-top: 200px;
+}
+
+.button_description_product
+{
+    width: 15%;
+    background: #94ebb8;
+    border-radius: 25px;
+    border: 1px solid white;
+    color:  white
+   
+}

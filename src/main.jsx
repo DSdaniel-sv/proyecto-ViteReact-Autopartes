@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { Routes } from 'react-router-dom'
 
 import './index.css'
+import DescriptionGalery from './pages/DescriptionGalery'
 import Router from './Router/Router'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
