@@ -4,13 +4,7 @@ import { Link } from 'react-router-dom'
 import '../pages/Ofertas.css'
 
 export default function Ofertas() {
-<<<<<<< HEAD
-    return (
-
-
-=======
-  return (
->>>>>>> origin
+return (
     <div>
         <div className='ofertas-title'>
             <h2>OFERTAS EXCLUSIVAS</h2>
