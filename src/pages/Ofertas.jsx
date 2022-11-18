@@ -1,15 +1,11 @@
 // Page-Ofertas
-
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../pages/Ofertas.css'
 
 export default function Ofertas() {
   return (
-
-
     <div>
-
         <div className='ofertas-title'>
             <h2>OFERTAS EXCLUSIVAS</h2>
         </div>
