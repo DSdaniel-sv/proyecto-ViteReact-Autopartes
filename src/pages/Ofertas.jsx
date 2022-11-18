@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import '../pages/Ofertas.css'
 
 export default function Ofertas() {
-    return (
+return (
     <div>
         <div className='ofertas-title'>
             <h2>OFERTAS EXCLUSIVAS</h2>
@@ -66,5 +66,5 @@ export default function Ofertas() {
         
     </div>
     </div>
-  )
+)
 }
