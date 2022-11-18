@@ -8,7 +8,7 @@ export default function Contacto() {
         <form id="form-container">
                 <div className="row">
                     {/* <!-- form input --> */}
-                    <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div className="col-lg-6 col-md-12 col-sm-12">
                         {/* <!-- logo --> */}
                         <div class="logotipe d-flex justify-content-center">
                             <Link href="#" class="d-flex align-items-center">
