@@ -15,7 +15,7 @@ export default function Header() {
         </form>
         <div className="box__icons">
           <ul className="menu__icons">
-            <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/cuenta.png" alt=""/>Sign in</Link></li>
+            <li><Link to='register' className='imgIcons'><img src="./src/assets/img-multimedia/icons/cuenta.png" alt=""/>Sign in</Link></li>
             <li><Link to='login' className='imgIcons'><img src="./src/assets/img-multimedia/icons/login-.png" alt=""/>Login</Link></li>
             <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/lista-de-deseos.png" alt="" /></Link></li>
             <li><Link to='' className='imgIcons'><img src="./src/assets/img-multimedia/icons/carrito-de-compras.png" alt="" /></Link></li>

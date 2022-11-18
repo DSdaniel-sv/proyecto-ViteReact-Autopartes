@@ -8,7 +8,7 @@ export default function Login() {
     <div className='login-container'>
       <div className='login-form'>
         <form className='formLogin'>
-        <h1 className='title'>Login</h1>
+        <h2 className='title'>Login</h2>
           <div className='form-group'>
             <label className='label-login'>
               <i class="fa-solid fa-user"></i>
