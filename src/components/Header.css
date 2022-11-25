@@ -127,10 +127,11 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
 }
 .ofertas-figure div figure img{
-    width: 13rem;
-    height: 12rem;
+    width: 100px;
+    height: 100px;
 }
 .ofertas-figure figure{
     text-align: center;
